@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<title>reservar quadra</title>
+		<meta charset= "utf-8">
+		<link href= "assets/css/reset.css" rel= "stylesheet">
+		<link href= "assets/css/quadra.css" rel= "stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="assets/js/geral.js"></script>
+        <script src="assets/js/quadra.js"></script>
+	</head>
+
+	<body class="fundo">
+		<header class ="header" >
+				<a class = "perfil" href= "perfil.html" >
+	                <img class="foto_perfil" src="assets/img/pic_perfil.jpg" alt= "foto perfil" >
+	            </a>      
+				<a class ="logo" href= "pagina_inicial.html">
+	            	<img class="logo_" src= "assets/img/menu_icone.png" alt= "Ícone menu">
+	            </a>
+	        </header>
+        <form class="main" action="feed1.html">
+			<div class="top">
+            	<h1 id="demo" class = "nome_esporte">jogo</h1> 
+				<h1 class ="fav" >☆</h1>
+			</div>
+        	<ul class= "tipo">
+        		<h1 class="lugar">Tipo de quadra: </h1></br>
+        		<div class="tipo_1">
+	        		<input class="item1" type="radio" name="oque" value="publicas"> <h1 class="name_item1">Publica</h1></br>
+	        	</div>
+	        	<div class="tipo_1">
+        			<input class="item1" type="radio" name="oque" value="privadas"> <h1 class="name_item1">Particular</h1></br>
+        		</div>
+    		</ul></br>
+    		<ul class=  "locais" > 
+    			<h1 class="lugar"> Local: </h1>
+    			<div class="tipo_">
+					<input class = "item2" type="checkbox" name="onde1" value="Villa Lobos"> <h1 class="name_item2">Pinheiros</h1></br>
+				</div>
+				<div class="tipo_">
+					<input class = "item2" type="checkbox" name="onde2" value="Parque do Estado"> <h1 class="name_item2"> Morumbi</h1></br>
+				</div>
+				<div class="tipo_">
+					<input class = "item2" type="checkbox" name="onde3" value="Parque Preidencia"><h1 class="name_item2"> Butantâ </h1></br>
+				</div>
+			</ul>
+			<h1 class="gerar_"><input type="submit" class = "gerar" value="PROCURAR"></input></h1>
+        </form> 	
+	</body>
+</html>

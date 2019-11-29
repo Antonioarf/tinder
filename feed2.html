@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<title>feed</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset= "utf-8">
+		<link href= "assets/css/reset.css" rel= "stylesheet">
+		<link href= "assets/css/feed2.css" rel= "stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+		<script src="assets/js/geral.js"></script>
+		<script src="assets/js/feed2.js"></script>
+	</head>
+	<body class="body">
+		<div class= "container">
+			<header class ="header" >
+				<a class = "perfil" href= "perfil.html" >
+	                <img class="foto_perfil" src="assets/img/pic_perfil.jpg" alt= "foto perfil" >
+	            </a>      
+				<a class ="logo" href= "pagina_inicial.html">
+	            	<img class="logo_" src= "assets/img/menu_icone.png" alt= "Ícone menu">
+	            </a>	            
+	        </header>
+	        <hi class = 'titulo'> Alugel De Quadras</hi>	        
+	        <div class = "horario">
+		        <div class="horas">
+			        Que horas começamos:
+		      		<input type="time" name="hora" class="hr"> <br />
+		      	</div>
+		      	<div class="horas">	
+		     		Que horas terminamos:</h3>
+					<input type="time" name="hora_fim">  <br />
+				</div>
+			</div>
+			<div class = "local"> <p class="loca"> Só falta escolher o local: </p>
+				<ul class="places">
+					<div class="item">
+						<input class="item1" type="radio"> 
+						Playbol
+					</div>
+					<div class="item">
+			        	<input class="item1" type="radio" > 
+			        	Anhembi TC
+			        <div class="item">
+		        		<input class="item1" type="radio" > 
+		        		ECP
+		        	</div>
+		        </ul>
+	        </div>
+			<h1 class="botao_">	
+				<button class="botao" id="myBtn">CONFIRMAR</button>
+			</h1>
+		</div>
+		<div id="myModal" class="modal">
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p class="pop">Sua quadra está reservada <span class=check>✔</span></p>
+		    <p class="pop">Caso nessario, eventuais pagamentos devem ser feitos no local</p>
+		    <a class = "perfil" href= "pagina_inicial.html"> Voltar ao inicio </a>
+		  </div>
+		</div>
+	</body>
+</html>

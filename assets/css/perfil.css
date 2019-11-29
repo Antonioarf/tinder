@@ -1,0 +1,126 @@
+
+.corpo{
+	display: flex;
+	flex-direction: column;
+	background-color: #42433E;
+}
+
+.header{
+	display: flex;
+	justify-content: flex-end;
+	background-color: #5CBECF;
+	height: 5rem;
+}
+
+.logo_{
+	margin-top: 0;
+	height: 67px;
+	width: 145px;
+}
+
+.per{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2rem;
+	font-family: 'Red Hat Text', sans-serif;
+	font-size: 1.5rem;
+}
+.perfil_photo{
+	height: 200px;
+	width: 200px;
+	border-radius: 7rem;
+}
+
+.name{
+	margin-top: 0.5rem;
+	color: #FFFFFF;
+	font-size: 2.3rem;
+}
+
+.info{
+	display: flex;
+	margin: 1rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 0.5rem;
+	font-family: 'Red Hat Text', sans-serif;
+	font-size: 1.3rem;
+	flex-direction: column;
+	align-items: center;
+	background-color: #5CBECF;
+	border-radius: 3rem; 
+}
+
+.dados{
+	color: #FFFFFF;
+	margin: 0.3rem;
+}
+
+.mapa{
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0.3rem;
+}
+
+.spot{
+	display: flex;
+	margin: 1rem;
+	margin-top: 0rem;
+	font-family: 'Red Hat Text', sans-serif;
+	font-size: 1.5rem;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 0.5rem;
+	border-radius: 3rem; 
+}
+
+.fav_spot{
+	color: #FFFFFF;
+	margin: 0.3rem;
+	font-size: 1.3rem;
+}
+
+.fav_esporte{
+	display: flex;
+	margin-top: 0rem;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Red Hat Text', sans-serif;
+	font-size: 1.3rem;
+}
+
+.FAVORITOS{
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	margin-bottom: 0.3rem;
+	margin-top: 0.5rem;
+	font-weight: bold;
+}
+
+.fav_esporte_{
+	color: #FFFFFF;
+	margin: 0.3rem;
+	font-size: 1.3rem;
+}
+
+.lugares{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 13rem;
+	border-radius: 2rem; 
+	background-color: #5CBECF;
+}
+
+.esportes{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 13rem;
+	border-radius: 2rem; 
+	background-color: #5CBECF;
+}

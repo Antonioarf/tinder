@@ -1,0 +1,116 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #5cbecf;
+	height: 5rem;
+}
+
+.body{
+	background-color: #42433e;
+}
+
+.top{
+	display: flex;
+	background-color: #5cbecf;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 1.5rem;
+	margin: 1rem;
+	margin-top: 1.5rem;
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+.logo_{
+	margin-top: 0;
+	height: 67px;
+	width: 145px;
+}
+
+.foto_perfil{
+	height: 50px;
+	width: 50px;
+	border-radius: 1.5rem;
+	margin: 1rem;
+}
+
+.tipo_escolha{
+	margin-bottom: 1rem;
+	font-family: 'Red Hat Text', sans-serif;
+	color: #FFFFFF;
+}
+
+.escolha{
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+}
+
+.qqo{
+	margin-bottom: 0.5rem;
+	display: flex;
+	font-size: 1.7rem;
+	margin: 1rem;
+	font-weight: bold;
+}
+
+.item_local{
+	margin-bottom: 0.5rem; 
+}
+.locais_{
+	display: flex;
+	flex-direction: row;
+}
+
+.timing{
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem; 
+}
+
+.name_item{
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem; 
+}
+
+.day{
+	font-size: 1.2rem;
+}
+
+.dias_da_semana{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.hr{
+	margin-left: 1rem;
+	margin-bottom: 0.7rem;
+}
+
+.quem{
+	margin-bottom: 0.5rem;
+}
+
+.gerar{
+	display: flex;
+	justify-content: center;
+	background-color: #D62565;
+	height: 2rem;
+	margin: 1rem;
+	font-size: 1.2rem;
+	font-family: 'Red Hat Text', sans-serif;
+}
+
+.gerar_{
+	display: flex;
+	justify-content: center;
+}
+
+.hr{
+	font-size: 1.3rem;
+	margin-top: 1rem;
+}
+
+.nome_esporte{
+	font-size: 1.7rem;
+}
